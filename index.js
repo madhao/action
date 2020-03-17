@@ -3,7 +3,7 @@ const exec = require('@actions/exec');
 const github = require('@actions/github');
 
 const ARGS = [
-    'run', '--all-files', '--show-diff-on-failure', '--color=always'
+    'run', '--show-diff-on-failure', '--color=always'
 ];
 
 function addToken(url, token) {
